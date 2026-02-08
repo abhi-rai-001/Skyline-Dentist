@@ -24,11 +24,11 @@ export const Services = () => {
   return (
     <div className="pt-20 overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative py-24 lg:py-32 overflow-hidden bg-background-light dark:bg-background-dark">
-        {/* Background Decoration */}
-        <div className="absolute inset-0 z-0 pointer-events-none">
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/5 to-transparent"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
+      <section className="relative py-24 lg:py-32 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+             <img src="/services-hero.png" alt="Dental Office" className="w-full h-full object-cover opacity-30 dark:opacity-10 blur-sm" />
+             <div className="absolute inset-0 bg-gradient-to-t from-background-light via-background-light/80 to-transparent dark:from-background-dark dark:via-background-dark/80"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -82,7 +82,7 @@ export const Services = () => {
                {/* Left Content */}
                <motion.div variants={fadeInUp} className="lg:col-span-4 sticky top-32">
                    <div className="relative rounded-[2rem] overflow-hidden aspect-[4/3] mb-8 shadow-2xl group">
-                       <img alt="General Dentistry" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=800"/>
+                       <img alt="General Dentistry" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="/general-dentistry.png"/>
                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
                            <h2 className="text-white text-3xl font-bold">General Dentistry</h2>
                        </div>
@@ -128,8 +128,8 @@ export const Services = () => {
             >
                <motion.div variants={fadeInUp} className="lg:col-span-4 lg:order-2 sticky top-32">
                    <div className="relative rounded-[2rem] overflow-hidden aspect-[4/3] mb-8 shadow-2xl group">
-                       <img alt="Cosmetic Dentistry" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1588776814546-1ffcf4722e99?auto=format&fit=crop&q=80&w=800"/>
-                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
+                       <img alt="Cosmetic Dentistry" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&q=80&w=800"/>
+                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-8">
                            <h2 className="text-white text-3xl font-bold">Cosmetic Dentistry</h2>
                        </div>
                    </div>
@@ -173,8 +173,8 @@ export const Services = () => {
             >
                <motion.div variants={fadeInUp} className="lg:col-span-4 sticky top-32">
                    <div className="relative rounded-[2rem] overflow-hidden aspect-[4/3] mb-8 shadow-2xl group">
-                       <img alt="Specialized Care" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&q=80&w=800"/>
-                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
+                       <img alt="Specialized Care" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800"/>
+                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-8">
                            <h2 className="text-white text-3xl font-bold">Specialized Care</h2>
                        </div>
                    </div>
