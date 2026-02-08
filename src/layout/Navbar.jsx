@@ -10,10 +10,10 @@ export const Navbar = () => {
         <div className="flex h-20 items-center justify-between">
           
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <img src="/logo.png" alt="Skyline Dental Logo" className="h-10 w-10 object-contain" />
             <h2 className="text-xl font-bold tracking-tight text-text-main dark:text-white">Skyline Dental</h2>
-          </div>
+          </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">

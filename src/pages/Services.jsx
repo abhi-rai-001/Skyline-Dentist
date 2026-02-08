@@ -22,9 +22,9 @@ const staggerContainer = {
 
 export const Services = () => {
   return (
-    <div className="pt-20 overflow-x-hidden">
+    <div className="overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative py-24 lg:py-32 overflow-hidden bg-background-light dark:bg-background-dark">
+      <section className="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-background-light dark:bg-background-dark">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
              <img src="/services-hero.png" alt="Dental Office" className="w-full h-full object-cover opacity-60 dark:opacity-20 blur-[2px]" />
@@ -142,7 +142,7 @@ export const Services = () => {
                   {[
                     { icon: 'auto_fix_high', title: 'Teeth Whitening', desc: 'Professional in-office or take-home whitening kits to brighten your smile safely.' },
                     { icon: 'masks', title: 'Porcelain Veneers', desc: 'Thin, custom-made shells designed to cover the front surface of teeth.' },
-                    { icon: 'grid_on', title: 'Invisalign®', desc: 'Clear aligners that straighten teeth discreetly without metal braces.' },
+                    { icon: 'grid_on', title: 'Clear Aligners', desc: 'Custom aligners that straighten teeth discreetly without metal braces.' },
                     { icon: 'brush', title: 'Cosmetic Bonding', desc: 'Quick repair for chipped or cracked teeth using tooth-colored resin.' }
                   ].map((item, i) => (
                       <motion.div 
