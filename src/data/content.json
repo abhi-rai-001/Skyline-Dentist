@@ -1,0 +1,64 @@
+{
+    "site": {
+        "title": "Skyline Dental",
+        "description": "Experience Dentistry That Feels Like Home"
+    },
+    "nav": [
+        {
+            "label": "Services",
+            "href": "#services"
+        },
+        {
+            "label": "About Us",
+            "href": "#about"
+        },
+        {
+            "label": "Patients",
+            "href": "#patients"
+        }
+    ],
+    "hero": {
+        "headline": "Experience Dentistry That Feels Like Home",
+        "subheadline": "From routine checkups to complex cosmetic makeovers, we provide a full range of dental treatments tailored to your unique needs.",
+        "cta": "Book Appointment"
+    },
+    "services": {
+        "title": "Comprehensive Dental Services",
+        "items": [
+            {
+                "title": "General Dentistry",
+                "description": "Routine cleanings, exams, and preventative care.",
+                "icon": "Stethoscope"
+            },
+            {
+                "title": "Cosmetic Dentistry",
+                "description": "Whitening, veneers, and smile makeovers.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Surgical Dentistry",
+                "description": "Implants, extractions, and root canals.",
+                "icon": "Syringe"
+            }
+        ]
+    },
+    "team": {
+        "title": "Dr. Sarah Mitchell, DDS",
+        "bio": "With over 15 years of clinical experience, Dr. Mitchell combines artistic vision with medical precision. She is passionate about creating a stress-free environment where patients feel heard and cared for.",
+        "stats": [
+            {
+                "label": "Years Experience",
+                "value": "15+"
+            },
+            {
+                "label": "Successful Implants",
+                "value": "2k+"
+            }
+        ]
+    },
+    "cta_banner": {
+        "headline": "Ready for your best smile?",
+        "subheadline": "Schedule your visit today and experience the difference of patient-centered care. No hidden fees, just great dentistry.",
+        "button": "Book Now"
+    }
+}

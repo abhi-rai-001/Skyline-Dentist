@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f3712b;
+  --color-primary-hover: #d95d1a;
+  --color-background-light: #fcf9f8;
+  --color-background-dark: #221610;
+  --color-deep-blue: #0077b6;
+  --color-text-main: #1c120d;
+  --color-text-muted: #6b7280;
+
+  --font-display: 'Manrope', sans-serif;
+  --font-sans: 'Manrope', sans-serif;
+
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+}
+
+@layer utilities {
+  .glass-nav {
+    background: rgba(252, 249, 248, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(243, 113, 43, 0.1);
+  }
+}
+
+/* Force dark mode to rely on the 'dark' class, preventing system preference override */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-background-light);
+  color: var(--color-text-main);
+}
