@@ -27,8 +27,8 @@ export const Services = () => {
       <section className="relative py-24 lg:py-32 overflow-hidden bg-background-light dark:bg-background-dark">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-             <img src="/services-hero.png" alt="Dental Office" className="w-full h-full object-cover opacity-30 dark:opacity-10 blur-sm" />
-             <div className="absolute inset-0 bg-gradient-to-t from-background-light via-background-light/80 to-transparent dark:from-background-dark dark:via-background-dark/80"></div>
+             <img src="/services-hero.png" alt="Dental Office" className="w-full h-full object-cover opacity-60 dark:opacity-20 blur-[2px]" />
+             <div className="absolute inset-0 bg-gradient-to-t from-background-light via-background-light/50 to-transparent dark:from-background-dark dark:via-background-dark/50"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
