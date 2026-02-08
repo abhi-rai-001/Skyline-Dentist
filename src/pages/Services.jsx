@@ -24,7 +24,7 @@ export const Services = () => {
   return (
     <div className="pt-20 overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative py-24 lg:py-32 overflow-hidden">
+      <section className="relative py-24 lg:py-32 overflow-hidden bg-background-light dark:bg-background-dark">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
              <img src="/services-hero.png" alt="Dental Office" className="w-full h-full object-cover opacity-30 dark:opacity-10 blur-sm" />
@@ -83,7 +83,7 @@ export const Services = () => {
                <motion.div variants={fadeInUp} className="lg:col-span-4 sticky top-32">
                    <div className="relative rounded-[2rem] overflow-hidden aspect-[4/3] mb-8 shadow-2xl group">
                        <img alt="General Dentistry" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="/general-dentistry.png"/>
-                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
+                       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex items-end p-8">
                            <h2 className="text-white text-3xl font-bold">General Dentistry</h2>
                        </div>
                    </div>
@@ -129,7 +129,7 @@ export const Services = () => {
                <motion.div variants={fadeInUp} className="lg:col-span-4 lg:order-2 sticky top-32">
                    <div className="relative rounded-[2rem] overflow-hidden aspect-[4/3] mb-8 shadow-2xl group">
                        <img alt="Cosmetic Dentistry" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&q=80&w=800"/>
-                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-8">
+                       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex items-end p-8">
                            <h2 className="text-white text-3xl font-bold">Cosmetic Dentistry</h2>
                        </div>
                    </div>
@@ -174,7 +174,7 @@ export const Services = () => {
                <motion.div variants={fadeInUp} className="lg:col-span-4 sticky top-32">
                    <div className="relative rounded-[2rem] overflow-hidden aspect-[4/3] mb-8 shadow-2xl group">
                        <img alt="Specialized Care" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800"/>
-                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-8">
+                       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex items-end p-8">
                            <h2 className="text-white text-3xl font-bold">Specialized Care</h2>
                        </div>
                    </div>
